@@ -8,8 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		217A9D44BA5A4713DA755B78 /* Pods_RockawayApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 747DD79BEDCE576D06DCADF2 /* Pods_RockawayApp.framework */; };
+		3F0B036F1FA1A1CF00A96FC3 /* BandItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B036B1FA1A1CF00A96FC3 /* BandItemTableViewCell.swift */; };
+		3F0B03701FA1A1CF00A96FC3 /* BandItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F0B036C1FA1A1CF00A96FC3 /* BandItemTableViewCell.xib */; };
+		3F0B03711FA1A1CF00A96FC3 /* BandSearchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B036D1FA1A1CF00A96FC3 /* BandSearchPresenter.swift */; };
+		3F0B03721FA1A1CF00A96FC3 /* BandSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B036E1FA1A1CF00A96FC3 /* BandSearchController.swift */; };
+		3F0B03741FA1A20300A96FC3 /* BandAutocompleteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B03731FA1A20200A96FC3 /* BandAutocompleteService.swift */; };
+		3F0B037C1FA1A2AA00A96FC3 /* LastResultStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B03781FA1A2AA00A96FC3 /* LastResultStorage.swift */; };
+		3F0B037D1FA1A2AA00A96FC3 /* BandProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B037A1FA1A2AA00A96FC3 /* BandProfile.swift */; };
+		3F0B037E1FA1A2AA00A96FC3 /* BandSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B037B1FA1A2AA00A96FC3 /* BandSearch.swift */; };
 		3F0BDE871FA16B9900730839 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0BDE861FA16B9900730839 /* AppDelegate.swift */; };
-		3F0BDE891FA16B9900730839 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0BDE881FA16B9900730839 /* ViewController.swift */; };
 		3F0BDE8C1FA16B9900730839 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0BDE8A1FA16B9900730839 /* Main.storyboard */; };
 		3F0BDE8E1FA16B9900730839 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F0BDE8D1FA16B9900730839 /* Assets.xcassets */; };
 		3F0BDE911FA16B9900730839 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0BDE8F1FA16B9900730839 /* LaunchScreen.storyboard */; };
@@ -17,16 +24,21 @@
 		3F0BDEA61FA16CA700730839 /* NetworkResponseSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0BDEA01FA16CA700730839 /* NetworkResponseSerializer.swift */; };
 		3F0BDEA91FA16CB000730839 /* ListExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0BDEA81FA16CB000730839 /* ListExtensions.swift */; };
 		3F0BDEAB1FA16CDA00730839 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0BDEAA1FA16CDA00730839 /* NetworkService.swift */; };
-		3F0BDEB01FA16E0000730839 /* BandProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0BDEAE1FA16E0000730839 /* BandProfile.swift */; };
-		3F0BDEB11FA16E0000730839 /* BandSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0BDEAF1FA16E0000730839 /* BandSearch.swift */; };
 		3F0BDEB31FA16E6A00730839 /* AccessKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F0BDEB21FA16E6900730839 /* AccessKeys.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1D7C27225118C8AFDF03C0A1 /* Pods-RockawayApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RockawayApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-RockawayApp/Pods-RockawayApp.release.xcconfig"; sourceTree = "<group>"; };
+		3F0B036B1FA1A1CF00A96FC3 /* BandItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BandItemTableViewCell.swift; sourceTree = "<group>"; };
+		3F0B036C1FA1A1CF00A96FC3 /* BandItemTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BandItemTableViewCell.xib; sourceTree = "<group>"; };
+		3F0B036D1FA1A1CF00A96FC3 /* BandSearchPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BandSearchPresenter.swift; sourceTree = "<group>"; };
+		3F0B036E1FA1A1CF00A96FC3 /* BandSearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BandSearchController.swift; sourceTree = "<group>"; };
+		3F0B03731FA1A20200A96FC3 /* BandAutocompleteService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BandAutocompleteService.swift; sourceTree = "<group>"; };
+		3F0B03781FA1A2AA00A96FC3 /* LastResultStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LastResultStorage.swift; sourceTree = "<group>"; };
+		3F0B037A1FA1A2AA00A96FC3 /* BandProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BandProfile.swift; sourceTree = "<group>"; };
+		3F0B037B1FA1A2AA00A96FC3 /* BandSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BandSearch.swift; sourceTree = "<group>"; };
 		3F0BDE831FA16B9900730839 /* RockawayApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockawayApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F0BDE861FA16B9900730839 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3F0BDE881FA16B9900730839 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3F0BDE8B1FA16B9900730839 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F0BDE8D1FA16B9900730839 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F0BDE901FA16B9900730839 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,8 +47,6 @@
 		3F0BDEA01FA16CA700730839 /* NetworkResponseSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkResponseSerializer.swift; sourceTree = "<group>"; };
 		3F0BDEA81FA16CB000730839 /* ListExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListExtensions.swift; sourceTree = "<group>"; };
 		3F0BDEAA1FA16CDA00730839 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
-		3F0BDEAE1FA16E0000730839 /* BandProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BandProfile.swift; sourceTree = "<group>"; };
-		3F0BDEAF1FA16E0000730839 /* BandSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BandSearch.swift; sourceTree = "<group>"; };
 		3F0BDEB21FA16E6900730839 /* AccessKeys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AccessKeys.plist; sourceTree = "<group>"; };
 		3F0BDEB51FA16E7700730839 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
 		3F0BDEB61FA16E8900730839 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = SOURCE_ROOT; };
@@ -56,6 +66,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F0B03681FA1A1CF00A96FC3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3F0B03691FA1A1CF00A96FC3 /* BandSearchController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3F0B03691FA1A1CF00A96FC3 /* BandSearchController */ = {
+			isa = PBXGroup;
+			children = (
+				3F0B036A1FA1A1CF00A96FC3 /* Cells */,
+				3F0B036D1FA1A1CF00A96FC3 /* BandSearchPresenter.swift */,
+				3F0B036E1FA1A1CF00A96FC3 /* BandSearchController.swift */,
+			);
+			path = BandSearchController;
+			sourceTree = "<group>";
+		};
+		3F0B036A1FA1A1CF00A96FC3 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3F0B036B1FA1A1CF00A96FC3 /* BandItemTableViewCell.swift */,
+				3F0B036C1FA1A1CF00A96FC3 /* BandItemTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		3F0B03771FA1A2AA00A96FC3 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				3F0B03781FA1A2AA00A96FC3 /* LastResultStorage.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		3F0B03791FA1A2AA00A96FC3 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				3F0B037A1FA1A2AA00A96FC3 /* BandProfile.swift */,
+				3F0B037B1FA1A2AA00A96FC3 /* BandSearch.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
 		3F0BDE7A1FA16B9900730839 = {
 			isa = PBXGroup;
 			children = (
@@ -81,7 +135,7 @@
 				3F0BDEB61FA16E8900730839 /* .swiftlint.yml */,
 				3F0BDEB21FA16E6900730839 /* AccessKeys.plist */,
 				3F0BDE861FA16B9900730839 /* AppDelegate.swift */,
-				3F0BDE881FA16B9900730839 /* ViewController.swift */,
+				3F0B03681FA1A1CF00A96FC3 /* Controllers */,
 				3F0BDEA71FA16CB000730839 /* Helpers */,
 				3F0BDEAD1FA16E0000730839 /* Models */,
 				3F0BDE991FA16CA700730839 /* Network */,
@@ -96,6 +150,7 @@
 		3F0BDE991FA16CA700730839 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				3F0B03731FA1A20200A96FC3 /* BandAutocompleteService.swift */,
 				3F0BDEAA1FA16CDA00730839 /* NetworkService.swift */,
 				3F0BDE9A1FA16CA700730839 /* NetworkRouter.swift */,
 				3F0BDEA01FA16CA700730839 /* NetworkResponseSerializer.swift */,
@@ -114,8 +169,8 @@
 		3F0BDEAD1FA16E0000730839 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				3F0BDEAE1FA16E0000730839 /* BandProfile.swift */,
-				3F0BDEAF1FA16E0000730839 /* BandSearch.swift */,
+				3F0B03791FA1A2AA00A96FC3 /* Entities */,
+				3F0B03771FA1A2AA00A96FC3 /* Storage */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -200,6 +255,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F0B03701FA1A1CF00A96FC3 /* BandItemTableViewCell.xib in Resources */,
 				3F0BDEB31FA16E6A00730839 /* AccessKeys.plist in Resources */,
 				3F0BDE911FA16B9900730839 /* LaunchScreen.storyboard in Resources */,
 				3F0BDE8E1FA16B9900730839 /* Assets.xcassets in Resources */,
@@ -284,14 +340,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F0BDEB01FA16E0000730839 /* BandProfile.swift in Sources */,
+				3F0B03741FA1A20300A96FC3 /* BandAutocompleteService.swift in Sources */,
 				3F0BDEAB1FA16CDA00730839 /* NetworkService.swift in Sources */,
 				3F0BDEA91FA16CB000730839 /* ListExtensions.swift in Sources */,
-				3F0BDE891FA16B9900730839 /* ViewController.swift in Sources */,
 				3F0BDE871FA16B9900730839 /* AppDelegate.swift in Sources */,
+				3F0B03721FA1A1CF00A96FC3 /* BandSearchController.swift in Sources */,
 				3F0BDEA61FA16CA700730839 /* NetworkResponseSerializer.swift in Sources */,
+				3F0B037E1FA1A2AA00A96FC3 /* BandSearch.swift in Sources */,
+				3F0B037D1FA1A2AA00A96FC3 /* BandProfile.swift in Sources */,
+				3F0B037C1FA1A2AA00A96FC3 /* LastResultStorage.swift in Sources */,
+				3F0B03711FA1A1CF00A96FC3 /* BandSearchPresenter.swift in Sources */,
+				3F0B036F1FA1A1CF00A96FC3 /* BandItemTableViewCell.swift in Sources */,
 				3F0BDEA11FA16CA700730839 /* NetworkRouter.swift in Sources */,
-				3F0BDEB11FA16E0000730839 /* BandSearch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
