@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		217A9D44BA5A4713DA755B78 /* Pods_RockawayApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 747DD79BEDCE576D06DCADF2 /* Pods_RockawayApp.framework */; };
 		3F0BDE871FA16B9900730839 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0BDE861FA16B9900730839 /* AppDelegate.swift */; };
 		3F0BDE891FA16B9900730839 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0BDE881FA16B9900730839 /* ViewController.swift */; };
 		3F0BDE8C1FA16B9900730839 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0BDE8A1FA16B9900730839 /* Main.storyboard */; };
 		3F0BDE8E1FA16B9900730839 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F0BDE8D1FA16B9900730839 /* Assets.xcassets */; };
 		3F0BDE911FA16B9900730839 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0BDE8F1FA16B9900730839 /* LaunchScreen.storyboard */; };
+		3F0BDEA11FA16CA700730839 /* NetworkRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0BDE9A1FA16CA700730839 /* NetworkRouter.swift */; };
+		3F0BDEA61FA16CA700730839 /* NetworkResponseSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0BDEA01FA16CA700730839 /* NetworkResponseSerializer.swift */; };
+		3F0BDEA91FA16CB000730839 /* ListExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0BDEA81FA16CB000730839 /* ListExtensions.swift */; };
+		3F0BDEAB1FA16CDA00730839 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0BDEAA1FA16CDA00730839 /* NetworkService.swift */; };
+		3F0BDEB01FA16E0000730839 /* BandProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0BDEAE1FA16E0000730839 /* BandProfile.swift */; };
+		3F0BDEB11FA16E0000730839 /* BandSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0BDEAF1FA16E0000730839 /* BandSearch.swift */; };
+		3F0BDEB31FA16E6A00730839 /* AccessKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F0BDEB21FA16E6900730839 /* AccessKeys.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D7C27225118C8AFDF03C0A1 /* Pods-RockawayApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RockawayApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-RockawayApp/Pods-RockawayApp.release.xcconfig"; sourceTree = "<group>"; };
 		3F0BDE831FA16B9900730839 /* RockawayApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockawayApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F0BDE861FA16B9900730839 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F0BDE881FA16B9900730839 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +31,17 @@
 		3F0BDE8D1FA16B9900730839 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F0BDE901FA16B9900730839 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F0BDE921FA16B9900730839 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F0BDE9A1FA16CA700730839 /* NetworkRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkRouter.swift; sourceTree = "<group>"; };
+		3F0BDEA01FA16CA700730839 /* NetworkResponseSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkResponseSerializer.swift; sourceTree = "<group>"; };
+		3F0BDEA81FA16CB000730839 /* ListExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListExtensions.swift; sourceTree = "<group>"; };
+		3F0BDEAA1FA16CDA00730839 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		3F0BDEAE1FA16E0000730839 /* BandProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BandProfile.swift; sourceTree = "<group>"; };
+		3F0BDEAF1FA16E0000730839 /* BandSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BandSearch.swift; sourceTree = "<group>"; };
+		3F0BDEB21FA16E6900730839 /* AccessKeys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AccessKeys.plist; sourceTree = "<group>"; };
+		3F0BDEB51FA16E7700730839 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		3F0BDEB61FA16E8900730839 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = SOURCE_ROOT; };
+		747DD79BEDCE576D06DCADF2 /* Pods_RockawayApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RockawayApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A861C0341DFF151D3C468E98 /* Pods-RockawayApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RockawayApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RockawayApp/Pods-RockawayApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				217A9D44BA5A4713DA755B78 /* Pods_RockawayApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +61,8 @@
 			children = (
 				3F0BDE851FA16B9900730839 /* RockawayApp */,
 				3F0BDE841FA16B9900730839 /* Products */,
+				5283ED12F4319BAC697A32C5 /* Pods */,
+				FAE51FC7252FE77E02E0719E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +77,64 @@
 		3F0BDE851FA16B9900730839 /* RockawayApp */ = {
 			isa = PBXGroup;
 			children = (
+				3F0BDEB51FA16E7700730839 /* Podfile */,
+				3F0BDEB61FA16E8900730839 /* .swiftlint.yml */,
+				3F0BDEB21FA16E6900730839 /* AccessKeys.plist */,
 				3F0BDE861FA16B9900730839 /* AppDelegate.swift */,
 				3F0BDE881FA16B9900730839 /* ViewController.swift */,
+				3F0BDEA71FA16CB000730839 /* Helpers */,
+				3F0BDEAD1FA16E0000730839 /* Models */,
+				3F0BDE991FA16CA700730839 /* Network */,
 				3F0BDE8A1FA16B9900730839 /* Main.storyboard */,
 				3F0BDE8D1FA16B9900730839 /* Assets.xcassets */,
 				3F0BDE8F1FA16B9900730839 /* LaunchScreen.storyboard */,
 				3F0BDE921FA16B9900730839 /* Info.plist */,
 			);
 			path = RockawayApp;
+			sourceTree = "<group>";
+		};
+		3F0BDE991FA16CA700730839 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				3F0BDEAA1FA16CDA00730839 /* NetworkService.swift */,
+				3F0BDE9A1FA16CA700730839 /* NetworkRouter.swift */,
+				3F0BDEA01FA16CA700730839 /* NetworkResponseSerializer.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		3F0BDEA71FA16CB000730839 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3F0BDEA81FA16CB000730839 /* ListExtensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		3F0BDEAD1FA16E0000730839 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3F0BDEAE1FA16E0000730839 /* BandProfile.swift */,
+				3F0BDEAF1FA16E0000730839 /* BandSearch.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5283ED12F4319BAC697A32C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A861C0341DFF151D3C468E98 /* Pods-RockawayApp.debug.xcconfig */,
+				1D7C27225118C8AFDF03C0A1 /* Pods-RockawayApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FAE51FC7252FE77E02E0719E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				747DD79BEDCE576D06DCADF2 /* Pods_RockawayApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +144,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F0BDE951FA16B9900730839 /* Build configuration list for PBXNativeTarget "RockawayApp" */;
 			buildPhases = (
+				BF58D6E35CD562A87962C523 /* [CP] Check Pods Manifest.lock */,
 				3F0BDE7F1FA16B9900730839 /* Sources */,
 				3F0BDE801FA16B9900730839 /* Frameworks */,
 				3F0BDE811FA16B9900730839 /* Resources */,
+				FD931C3A58A4937521E76166 /* [CP] Embed Pods Frameworks */,
+				2A6218599C91F0DF2659F9EA /* [CP] Copy Pods Resources */,
+				3F0BDEAC1FA16D9000730839 /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -123,6 +200,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F0BDEB31FA16E6A00730839 /* AccessKeys.plist in Resources */,
 				3F0BDE911FA16B9900730839 /* LaunchScreen.storyboard in Resources */,
 				3F0BDE8E1FA16B9900730839 /* Assets.xcassets in Resources */,
 				3F0BDE8C1FA16B9900730839 /* Main.storyboard in Resources */,
@@ -131,13 +209,89 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2A6218599C91F0DF2659F9EA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RockawayApp/Pods-RockawayApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F0BDEAC1FA16D9000730839 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+		BF58D6E35CD562A87962C523 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RockawayApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD931C3A58A4937521E76166 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RockawayApp/Pods-RockawayApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RockawayApp/Pods-RockawayApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3F0BDE7F1FA16B9900730839 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F0BDEB01FA16E0000730839 /* BandProfile.swift in Sources */,
+				3F0BDEAB1FA16CDA00730839 /* NetworkService.swift in Sources */,
+				3F0BDEA91FA16CB000730839 /* ListExtensions.swift in Sources */,
 				3F0BDE891FA16B9900730839 /* ViewController.swift in Sources */,
 				3F0BDE871FA16B9900730839 /* AppDelegate.swift in Sources */,
+				3F0BDEA61FA16CA700730839 /* NetworkResponseSerializer.swift in Sources */,
+				3F0BDEA11FA16CA700730839 /* NetworkRouter.swift in Sources */,
+				3F0BDEB11FA16E0000730839 /* BandSearch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +426,7 @@
 		};
 		3F0BDE961FA16B9900730839 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A861C0341DFF151D3C468E98 /* Pods-RockawayApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +442,7 @@
 		};
 		3F0BDE971FA16B9900730839 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D7C27225118C8AFDF03C0A1 /* Pods-RockawayApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
