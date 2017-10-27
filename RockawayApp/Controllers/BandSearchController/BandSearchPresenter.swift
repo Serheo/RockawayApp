@@ -10,7 +10,7 @@ import UIKit
 
 final class BandSearchPresenter {
 
-    private var network: NetworkService
+    var network: NetworkService
     private var autocomplete: BandAutocompleteService
     private var storage: ResultStorage
     private weak var view: BandSearchView?

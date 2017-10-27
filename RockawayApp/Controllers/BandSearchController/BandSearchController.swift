@@ -56,6 +56,12 @@ class BandSearchController: UITableViewController,
 
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
+        let item = result[indexPath.row]
+
+        let cnt = UIStoryboard.main.instantiateViewController(className: DetailsViewController.self)
+        let presenter = DetailsPresenter(bandToShow: item, network: self.presenter.network, view: cnt)
+        cnt.presenter = presenter
+        self.navigationController?.pushViewController(cnt, animated: true)
     }
 
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {

@@ -29,6 +29,10 @@ struct BandProfileData: Codable {
         case discography
         case details
     }
+
+    func hasInfoSection() -> Bool {
+        return photo != nil || bio.characters.count > 0
+    }
 }
 
 struct BandProfileAlbum: Codable {

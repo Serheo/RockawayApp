@@ -28,7 +28,7 @@
         <!--Band Search Controller-->
         <scene sceneID="681-E8-9LP">
             <objects>
-                <tableViewController storyboardIdentifier="BandSearchController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="k6D-FG-wMs" customClass="BandSearchController" customModule="Rockaway" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="BandSearchController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="k6D-FG-wMs" customClass="BandSearchController" customModule="RockawayApp" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" keyboardDismissMode="onDrag" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="E4M-wj-c8c">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -54,6 +54,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Niu-hH-OE6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="698" y="136"/>
+        </scene>
+        <!--Details View Controller-->
+        <scene sceneID="uyC-Uy-NYy">
+            <objects>
+                <tableViewController storyboardIdentifier="DetailsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="3yn-4o-ucM" customClass="DetailsViewController" customModule="Rockaway" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="QHR-Gd-4Ix">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <connections>
+                            <outlet property="dataSource" destination="3yn-4o-ucM" id="4Lj-aK-Qcu"/>
+                            <outlet property="delegate" destination="3yn-4o-ucM" id="lJd-bp-n7f"/>
+                        </connections>
+                    </tableView>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hdr-xC-FDY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1303" y="136"/>
         </scene>
     </scenes>
 </document>

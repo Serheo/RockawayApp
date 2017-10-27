@@ -16,6 +16,12 @@
 		3F0B037C1FA1A2AA00A96FC3 /* LastResultStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B03781FA1A2AA00A96FC3 /* LastResultStorage.swift */; };
 		3F0B037D1FA1A2AA00A96FC3 /* BandProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B037A1FA1A2AA00A96FC3 /* BandProfile.swift */; };
 		3F0B037E1FA1A2AA00A96FC3 /* BandSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B037B1FA1A2AA00A96FC3 /* BandSearch.swift */; };
+		3F0B03871FA2DACA00A96FC3 /* DetailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F0B03811FA2DACA00A96FC3 /* DetailsTableViewCell.xib */; };
+		3F0B03881FA2DACA00A96FC3 /* DetailsInfoTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B03821FA2DACA00A96FC3 /* DetailsInfoTableCell.swift */; };
+		3F0B03891FA2DACA00A96FC3 /* DetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B03831FA2DACA00A96FC3 /* DetailsTableViewCell.swift */; };
+		3F0B038A1FA2DACA00A96FC3 /* DetailsInfoTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F0B03841FA2DACA00A96FC3 /* DetailsInfoTableCell.xib */; };
+		3F0B038B1FA2DACA00A96FC3 /* DetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B03851FA2DACA00A96FC3 /* DetailsPresenter.swift */; };
+		3F0B038C1FA2DACA00A96FC3 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B03861FA2DACA00A96FC3 /* DetailsViewController.swift */; };
 		3F0BDE871FA16B9900730839 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0BDE861FA16B9900730839 /* AppDelegate.swift */; };
 		3F0BDE8C1FA16B9900730839 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0BDE8A1FA16B9900730839 /* Main.storyboard */; };
 		3F0BDE8E1FA16B9900730839 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F0BDE8D1FA16B9900730839 /* Assets.xcassets */; };
@@ -37,6 +43,12 @@
 		3F0B03781FA1A2AA00A96FC3 /* LastResultStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LastResultStorage.swift; sourceTree = "<group>"; };
 		3F0B037A1FA1A2AA00A96FC3 /* BandProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BandProfile.swift; sourceTree = "<group>"; };
 		3F0B037B1FA1A2AA00A96FC3 /* BandSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BandSearch.swift; sourceTree = "<group>"; };
+		3F0B03811FA2DACA00A96FC3 /* DetailsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailsTableViewCell.xib; sourceTree = "<group>"; };
+		3F0B03821FA2DACA00A96FC3 /* DetailsInfoTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsInfoTableCell.swift; sourceTree = "<group>"; };
+		3F0B03831FA2DACA00A96FC3 /* DetailsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsTableViewCell.swift; sourceTree = "<group>"; };
+		3F0B03841FA2DACA00A96FC3 /* DetailsInfoTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailsInfoTableCell.xib; sourceTree = "<group>"; };
+		3F0B03851FA2DACA00A96FC3 /* DetailsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsPresenter.swift; sourceTree = "<group>"; };
+		3F0B03861FA2DACA00A96FC3 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		3F0BDE831FA16B9900730839 /* RockawayApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockawayApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F0BDE861FA16B9900730839 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F0BDE8B1FA16B9900730839 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -70,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				3F0B03691FA1A1CF00A96FC3 /* BandSearchController */,
+				3F0B037F1FA2DACA00A96FC3 /* DetailsViewController */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -108,6 +121,27 @@
 				3F0B037B1FA1A2AA00A96FC3 /* BandSearch.swift */,
 			);
 			path = Entities;
+			sourceTree = "<group>";
+		};
+		3F0B037F1FA2DACA00A96FC3 /* DetailsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3F0B03801FA2DACA00A96FC3 /* Cells */,
+				3F0B03851FA2DACA00A96FC3 /* DetailsPresenter.swift */,
+				3F0B03861FA2DACA00A96FC3 /* DetailsViewController.swift */,
+			);
+			path = DetailsViewController;
+			sourceTree = "<group>";
+		};
+		3F0B03801FA2DACA00A96FC3 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3F0B03821FA2DACA00A96FC3 /* DetailsInfoTableCell.swift */,
+				3F0B03811FA2DACA00A96FC3 /* DetailsTableViewCell.xib */,
+				3F0B03831FA2DACA00A96FC3 /* DetailsTableViewCell.swift */,
+				3F0B03841FA2DACA00A96FC3 /* DetailsInfoTableCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		3F0BDE7A1FA16B9900730839 = {
@@ -257,6 +291,8 @@
 			files = (
 				3F0B03701FA1A1CF00A96FC3 /* BandItemTableViewCell.xib in Resources */,
 				3F0BDEB31FA16E6A00730839 /* AccessKeys.plist in Resources */,
+				3F0B038A1FA2DACA00A96FC3 /* DetailsInfoTableCell.xib in Resources */,
+				3F0B03871FA2DACA00A96FC3 /* DetailsTableViewCell.xib in Resources */,
 				3F0BDE911FA16B9900730839 /* LaunchScreen.storyboard in Resources */,
 				3F0BDE8E1FA16B9900730839 /* Assets.xcassets in Resources */,
 				3F0BDE8C1FA16B9900730839 /* Main.storyboard in Resources */,
@@ -342,16 +378,20 @@
 			files = (
 				3F0B03741FA1A20300A96FC3 /* BandAutocompleteService.swift in Sources */,
 				3F0BDEAB1FA16CDA00730839 /* NetworkService.swift in Sources */,
+				3F0B038B1FA2DACA00A96FC3 /* DetailsPresenter.swift in Sources */,
 				3F0BDEA91FA16CB000730839 /* ListExtensions.swift in Sources */,
 				3F0BDE871FA16B9900730839 /* AppDelegate.swift in Sources */,
 				3F0B03721FA1A1CF00A96FC3 /* BandSearchController.swift in Sources */,
 				3F0BDEA61FA16CA700730839 /* NetworkResponseSerializer.swift in Sources */,
+				3F0B03891FA2DACA00A96FC3 /* DetailsTableViewCell.swift in Sources */,
 				3F0B037E1FA1A2AA00A96FC3 /* BandSearch.swift in Sources */,
 				3F0B037D1FA1A2AA00A96FC3 /* BandProfile.swift in Sources */,
 				3F0B037C1FA1A2AA00A96FC3 /* LastResultStorage.swift in Sources */,
+				3F0B038C1FA2DACA00A96FC3 /* DetailsViewController.swift in Sources */,
 				3F0B03711FA1A1CF00A96FC3 /* BandSearchPresenter.swift in Sources */,
 				3F0B036F1FA1A1CF00A96FC3 /* BandItemTableViewCell.swift in Sources */,
 				3F0BDEA11FA16CA700730839 /* NetworkRouter.swift in Sources */,
+				3F0B03881FA2DACA00A96FC3 /* DetailsInfoTableCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,6 +530,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E6P53MM964;
 				INFOPLIST_FILE = RockawayApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -506,6 +547,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E6P53MM964;
 				INFOPLIST_FILE = RockawayApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
