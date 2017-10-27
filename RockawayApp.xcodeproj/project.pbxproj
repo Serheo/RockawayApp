@@ -22,6 +22,16 @@
 		3F0B038A1FA2DACA00A96FC3 /* DetailsInfoTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F0B03841FA2DACA00A96FC3 /* DetailsInfoTableCell.xib */; };
 		3F0B038B1FA2DACA00A96FC3 /* DetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B03851FA2DACA00A96FC3 /* DetailsPresenter.swift */; };
 		3F0B038C1FA2DACA00A96FC3 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B03861FA2DACA00A96FC3 /* DetailsViewController.swift */; };
+		3F0B03941FA2FA8600A96FC3 /* RockawayAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B03931FA2FA8600A96FC3 /* RockawayAppTests.swift */; };
+		3F0B03A41FA2FAF400A96FC3 /* FixtureFabric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B039B1FA2FAF300A96FC3 /* FixtureFabric.swift */; };
+		3F0B03A61FA2FAF400A96FC3 /* NetworkMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B039E1FA2FAF300A96FC3 /* NetworkMock.swift */; };
+		3F0B03A71FA2FAF400A96FC3 /* BandSearchViewMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B039F1FA2FAF300A96FC3 /* BandSearchViewMock.swift */; };
+		3F0B03A81FA2FAF400A96FC3 /* StorageMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B03A01FA2FAF300A96FC3 /* StorageMock.swift */; };
+		3F0B03A91FA2FAF400A96FC3 /* SearchProfileOK.json in Resources */ = {isa = PBXBuildFile; fileRef = 3F0B03A21FA2FAF400A96FC3 /* SearchProfileOK.json */; };
+		3F0B03AA1FA2FAF400A96FC3 /* SearchResultsOK.json in Resources */ = {isa = PBXBuildFile; fileRef = 3F0B03A31FA2FAF400A96FC3 /* SearchResultsOK.json */; };
+		3F0B03AC1FA2FE3600A96FC3 /* SearchPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B03AB1FA2FE3600A96FC3 /* SearchPresenterTests.swift */; };
+		3F0B03AE1FA300B300A96FC3 /* DetailsViewMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B03AD1FA300B300A96FC3 /* DetailsViewMock.swift */; };
+		3F0B03B01FA3016B00A96FC3 /* DetailsPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B03AF1FA3016B00A96FC3 /* DetailsPresenterTests.swift */; };
 		3F0BDE871FA16B9900730839 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0BDE861FA16B9900730839 /* AppDelegate.swift */; };
 		3F0BDE8C1FA16B9900730839 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0BDE8A1FA16B9900730839 /* Main.storyboard */; };
 		3F0BDE8E1FA16B9900730839 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F0BDE8D1FA16B9900730839 /* Assets.xcassets */; };
@@ -31,10 +41,22 @@
 		3F0BDEA91FA16CB000730839 /* ListExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0BDEA81FA16CB000730839 /* ListExtensions.swift */; };
 		3F0BDEAB1FA16CDA00730839 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0BDEAA1FA16CDA00730839 /* NetworkService.swift */; };
 		3F0BDEB31FA16E6A00730839 /* AccessKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F0BDEB21FA16E6900730839 /* AccessKeys.plist */; };
+		88F83F4DCA0EBB299CED7EA0 /* Pods_RockawayAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 219B78D2C8BCEC6CA4FD01B4 /* Pods_RockawayAppTests.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F0B03961FA2FA8600A96FC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F0BDE7B1FA16B9900730839 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F0BDE821FA16B9900730839;
+			remoteInfo = RockawayApp;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1D7C27225118C8AFDF03C0A1 /* Pods-RockawayApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RockawayApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-RockawayApp/Pods-RockawayApp.release.xcconfig"; sourceTree = "<group>"; };
+		219B78D2C8BCEC6CA4FD01B4 /* Pods_RockawayAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RockawayAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F0B036B1FA1A1CF00A96FC3 /* BandItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BandItemTableViewCell.swift; sourceTree = "<group>"; };
 		3F0B036C1FA1A1CF00A96FC3 /* BandItemTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BandItemTableViewCell.xib; sourceTree = "<group>"; };
 		3F0B036D1FA1A1CF00A96FC3 /* BandSearchPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BandSearchPresenter.swift; sourceTree = "<group>"; };
@@ -49,6 +71,18 @@
 		3F0B03841FA2DACA00A96FC3 /* DetailsInfoTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailsInfoTableCell.xib; sourceTree = "<group>"; };
 		3F0B03851FA2DACA00A96FC3 /* DetailsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsPresenter.swift; sourceTree = "<group>"; };
 		3F0B03861FA2DACA00A96FC3 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		3F0B03911FA2FA8600A96FC3 /* RockawayAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RockawayAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0B03931FA2FA8600A96FC3 /* RockawayAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockawayAppTests.swift; sourceTree = "<group>"; };
+		3F0B03951FA2FA8600A96FC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F0B039B1FA2FAF300A96FC3 /* FixtureFabric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FixtureFabric.swift; sourceTree = "<group>"; };
+		3F0B039E1FA2FAF300A96FC3 /* NetworkMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkMock.swift; sourceTree = "<group>"; };
+		3F0B039F1FA2FAF300A96FC3 /* BandSearchViewMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BandSearchViewMock.swift; sourceTree = "<group>"; };
+		3F0B03A01FA2FAF300A96FC3 /* StorageMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageMock.swift; sourceTree = "<group>"; };
+		3F0B03A21FA2FAF400A96FC3 /* SearchProfileOK.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SearchProfileOK.json; sourceTree = "<group>"; };
+		3F0B03A31FA2FAF400A96FC3 /* SearchResultsOK.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SearchResultsOK.json; sourceTree = "<group>"; };
+		3F0B03AB1FA2FE3600A96FC3 /* SearchPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPresenterTests.swift; sourceTree = "<group>"; };
+		3F0B03AD1FA300B300A96FC3 /* DetailsViewMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewMock.swift; sourceTree = "<group>"; };
+		3F0B03AF1FA3016B00A96FC3 /* DetailsPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsPresenterTests.swift; sourceTree = "<group>"; };
 		3F0BDE831FA16B9900730839 /* RockawayApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockawayApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F0BDE861FA16B9900730839 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F0BDE8B1FA16B9900730839 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -62,11 +96,21 @@
 		3F0BDEB21FA16E6900730839 /* AccessKeys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AccessKeys.plist; sourceTree = "<group>"; };
 		3F0BDEB51FA16E7700730839 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
 		3F0BDEB61FA16E8900730839 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = SOURCE_ROOT; };
+		63FEB5A844ECA96E62C2EEBD /* Pods-RockawayAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RockawayAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RockawayAppTests/Pods-RockawayAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		747DD79BEDCE576D06DCADF2 /* Pods_RockawayApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RockawayApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A861C0341DFF151D3C468E98 /* Pods-RockawayApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RockawayApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RockawayApp/Pods-RockawayApp.debug.xcconfig"; sourceTree = "<group>"; };
+		B7B79908FC5340DD59B1B24B /* Pods-RockawayAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RockawayAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RockawayAppTests/Pods-RockawayAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3F0B038E1FA2FA8600A96FC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88F83F4DCA0EBB299CED7EA0 /* Pods_RockawayAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3F0BDE801FA16B9900730839 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -144,10 +188,45 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
+		3F0B03921FA2FA8600A96FC3 /* RockawayAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F0B03931FA2FA8600A96FC3 /* RockawayAppTests.swift */,
+				3F0B03AB1FA2FE3600A96FC3 /* SearchPresenterTests.swift */,
+				3F0B03AF1FA3016B00A96FC3 /* DetailsPresenterTests.swift */,
+				3F0B039B1FA2FAF300A96FC3 /* FixtureFabric.swift */,
+				3F0B03A11FA2FAF400A96FC3 /* Fixtures */,
+				3F0B039D1FA2FAF300A96FC3 /* Mocks */,
+				3F0B03951FA2FA8600A96FC3 /* Info.plist */,
+			);
+			path = RockawayAppTests;
+			sourceTree = "<group>";
+		};
+		3F0B039D1FA2FAF300A96FC3 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				3F0B039E1FA2FAF300A96FC3 /* NetworkMock.swift */,
+				3F0B039F1FA2FAF300A96FC3 /* BandSearchViewMock.swift */,
+				3F0B03AD1FA300B300A96FC3 /* DetailsViewMock.swift */,
+				3F0B03A01FA2FAF300A96FC3 /* StorageMock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		3F0B03A11FA2FAF400A96FC3 /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				3F0B03A21FA2FAF400A96FC3 /* SearchProfileOK.json */,
+				3F0B03A31FA2FAF400A96FC3 /* SearchResultsOK.json */,
+			);
+			path = Fixtures;
+			sourceTree = "<group>";
+		};
 		3F0BDE7A1FA16B9900730839 = {
 			isa = PBXGroup;
 			children = (
 				3F0BDE851FA16B9900730839 /* RockawayApp */,
+				3F0B03921FA2FA8600A96FC3 /* RockawayAppTests */,
 				3F0BDE841FA16B9900730839 /* Products */,
 				5283ED12F4319BAC697A32C5 /* Pods */,
 				FAE51FC7252FE77E02E0719E /* Frameworks */,
@@ -158,6 +237,7 @@
 			isa = PBXGroup;
 			children = (
 				3F0BDE831FA16B9900730839 /* RockawayApp.app */,
+				3F0B03911FA2FA8600A96FC3 /* RockawayAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -214,6 +294,8 @@
 			children = (
 				A861C0341DFF151D3C468E98 /* Pods-RockawayApp.debug.xcconfig */,
 				1D7C27225118C8AFDF03C0A1 /* Pods-RockawayApp.release.xcconfig */,
+				B7B79908FC5340DD59B1B24B /* Pods-RockawayAppTests.debug.xcconfig */,
+				63FEB5A844ECA96E62C2EEBD /* Pods-RockawayAppTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -222,6 +304,7 @@
 			isa = PBXGroup;
 			children = (
 				747DD79BEDCE576D06DCADF2 /* Pods_RockawayApp.framework */,
+				219B78D2C8BCEC6CA4FD01B4 /* Pods_RockawayAppTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -229,6 +312,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		3F0B03901FA2FA8600A96FC3 /* RockawayAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F0B039A1FA2FA8600A96FC3 /* Build configuration list for PBXNativeTarget "RockawayAppTests" */;
+			buildPhases = (
+				40FE86455F61BDF85AB1EB0B /* [CP] Check Pods Manifest.lock */,
+				3F0B038D1FA2FA8600A96FC3 /* Sources */,
+				3F0B038E1FA2FA8600A96FC3 /* Frameworks */,
+				3F0B038F1FA2FA8600A96FC3 /* Resources */,
+				2DE9DD5D6EACE40F15399B12 /* [CP] Embed Pods Frameworks */,
+				7C3DC178B9179DD1B7D249F0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F0B03971FA2FA8600A96FC3 /* PBXTargetDependency */,
+			);
+			name = RockawayAppTests;
+			productName = RockawayAppTests;
+			productReference = 3F0B03911FA2FA8600A96FC3 /* RockawayAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		3F0BDE821FA16B9900730839 /* RockawayApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F0BDE951FA16B9900730839 /* Build configuration list for PBXNativeTarget "RockawayApp" */;
@@ -260,9 +364,14 @@
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = SHS;
 				TargetAttributes = {
-					3F0BDE821FA16B9900730839 = {
+					3F0B03901FA2FA8600A96FC3 = {
 						CreatedOnToolsVersion = 9.0.1;
 						ProvisioningStyle = Automatic;
+						TestTargetID = 3F0BDE821FA16B9900730839;
+					};
+					3F0BDE821FA16B9900730839 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -280,11 +389,21 @@
 			projectRoot = "";
 			targets = (
 				3F0BDE821FA16B9900730839 /* RockawayApp */,
+				3F0B03901FA2FA8600A96FC3 /* RockawayAppTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3F0B038F1FA2FA8600A96FC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0B03AA1FA2FAF400A96FC3 /* SearchResultsOK.json in Resources */,
+				3F0B03A91FA2FAF400A96FC3 /* SearchProfileOK.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3F0BDE811FA16B9900730839 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -317,6 +436,26 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RockawayApp/Pods-RockawayApp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		2DE9DD5D6EACE40F15399B12 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RockawayAppTests/Pods-RockawayAppTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire-iOS11.0/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage-iOS11.0/AlamofireImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RockawayAppTests/Pods-RockawayAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		3F0BDEAC1FA16D9000730839 /* SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -330,6 +469,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+		40FE86455F61BDF85AB1EB0B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RockawayAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C3DC178B9179DD1B7D249F0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RockawayAppTests/Pods-RockawayAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 		BF58D6E35CD562A87962C523 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -356,8 +528,8 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-RockawayApp/Pods-RockawayApp-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire-iOS9.0/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage-iOS9.0/AlamofireImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -372,6 +544,21 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3F0B038D1FA2FA8600A96FC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0B03AC1FA2FE3600A96FC3 /* SearchPresenterTests.swift in Sources */,
+				3F0B03A61FA2FAF400A96FC3 /* NetworkMock.swift in Sources */,
+				3F0B03A41FA2FAF400A96FC3 /* FixtureFabric.swift in Sources */,
+				3F0B03941FA2FA8600A96FC3 /* RockawayAppTests.swift in Sources */,
+				3F0B03AE1FA300B300A96FC3 /* DetailsViewMock.swift in Sources */,
+				3F0B03A71FA2FAF400A96FC3 /* BandSearchViewMock.swift in Sources */,
+				3F0B03A81FA2FAF400A96FC3 /* StorageMock.swift in Sources */,
+				3F0B03B01FA3016B00A96FC3 /* DetailsPresenterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3F0BDE7F1FA16B9900730839 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -397,6 +584,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		3F0B03971FA2FA8600A96FC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F0BDE821FA16B9900730839 /* RockawayApp */;
+			targetProxy = 3F0B03961FA2FA8600A96FC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		3F0BDE8A1FA16B9900730839 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -417,6 +612,38 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		3F0B03981FA2FA8600A96FC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7B79908FC5340DD59B1B24B /* Pods-RockawayAppTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RockawayAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shs.RockawayAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RockawayApp.app/RockawayApp";
+			};
+			name = Debug;
+		};
+		3F0B03991FA2FA8600A96FC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63FEB5A844ECA96E62C2EEBD /* Pods-RockawayAppTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RockawayAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shs.RockawayAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RockawayApp.app/RockawayApp";
+			};
+			name = Release;
+		};
 		3F0BDE931FA16B9900730839 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -529,13 +756,14 @@
 			baseConfigurationReference = A861C0341DFF151D3C468E98 /* Pods-RockawayApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = E6P53MM964;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = RockawayApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shs.RockawayApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -546,13 +774,14 @@
 			baseConfigurationReference = 1D7C27225118C8AFDF03C0A1 /* Pods-RockawayApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = E6P53MM964;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = RockawayApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shs.RockawayApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -561,6 +790,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3F0B039A1FA2FA8600A96FC3 /* Build configuration list for PBXNativeTarget "RockawayAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0B03981FA2FA8600A96FC3 /* Debug */,
+				3F0B03991FA2FA8600A96FC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		3F0BDE7E1FA16B9900730839 /* Build configuration list for PBXProject "RockawayApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
